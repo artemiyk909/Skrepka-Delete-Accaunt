@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion | Skrepka</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Typography Plugin -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white font-bold text-sm">
+                        SSI
+                    </div>
+                    <span class="font-bold text-lg text-gray-900 tracking-tight">Skrepka Legal</span>
+                </div>
+                <div class="flex gap-4 text-sm font-medium">
+                    <a href="#english" class="text-gray-500 hover:text-brand-600 transition-colors">English</a>
+                    <a href="#indonesian" class="text-gray-500 hover:text-brand-600 transition-colors">Bahasa Indonesia</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 md:p-12">
+            
+            <!-- Company Verification Block -->
+            <div class="mb-10 bg-gray-50 p-4 rounded-lg border border-gray-100 text-sm text-gray-600">
+                <strong>Operator:</strong> PT SEHAT SUKSES INDONESIA<br>
+                <strong>Registered Address:</strong> Jl. Nelayan No. 9, Batu Layar, Indonesia<br>
+                <strong>Contact:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com" class="text-brand-600 hover:underline">sehatsuksesindonesia@gmail.com</a>
+            </div>
+
+            <!-- Typography Article -->
+            <article class="prose prose-slate prose-a:text-brand-600 hover:prose-a:text-brand-500 max-w-none">
+                
+                <!-- ENGLISH VERSION -->
+                <section id="english" class="mb-20">
+                    <h1 class="text-3xl font-bold border-b pb-4">DATA AND ACCOUNT DELETION</h1>
+
+                    <p>We respect your privacy and your right to control your personal data. Below are the methods to completely remove your information from our system.</p>
+
+                    <hr>
+
+                    <h2>🛠️ How to Delete Your Account Manually</h2>
+                    <p>You can completely delete your profile at any time through the application settings.</p>
+                    <ol>
+                        <li>Log in to your account.</li>
+                        <li>Go to the <strong>"Profile"</strong> section.</li>
+                        <li>Click on the <strong>gear icon</strong> (Settings).</li>
+                        <li>Click the <strong>"Delete Account"</strong> button.</li>
+                    </ol>
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg my-6">
+                        <p class="text-red-800 m-0"><strong>⚠️ Important:</strong> This action will instantly and permanently delete all user data. It cannot be undone.</p>
+                    </div>
+
+                    <hr>
+
+                    <h2>✉️ Request Data Deletion via Email</h2>
+                    <p>If you cannot access your account or prefer to send a formal request, please email us.</p>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com">sehatsuksesindonesia@gmail.com</a></li>
+                        <li><strong>Subject:</strong> Data Deletion Request</li>
+                    </ul>
+
+                    <h3>Email Template:</h3>
+                    <pre class="bg-gray-800 text-gray-100 p-4 rounded-lg overflow-x-auto"><code>Hello,
+
+I am requesting the permanent deletion of my account and all associated personal data from your system.
+
+My Account Email/ID: [Insert your email or ID here]
+
+Thank you.</code></pre>
+
+                    <p>We will process your request within 30 days and send a confirmation to your email.</p>
+                </section>
+
+                <!-- INDONESIAN VERSION -->
+                <section id="indonesian" class="pt-10 border-t-4 border-gray-100">
+                    <h1 class="text-3xl font-bold border-b pb-4">PERMINTAAN PENGHAPUSAN AKUN DAN DATA</h1>
+
+                    <p>Kami menghormati privasi dan hak Anda untuk mengontrol data pribadi Anda. Berikut adalah metode untuk menghapus informasi Anda secara permanen dari sistem kami.</p>
+
+                    <hr>
+
+                    <h2>🛠️ Cara Menghapus Akun Secara Manual</h2>
+                    <p>Anda dapat menghapus profil Anda sepenuhnya kapan saja melalui pengaturan aplikasi.</p>
+                    <ol>
+                        <li>Masuk ke akun Anda.</li>
+                        <li>Buka bagian <strong>"Profil"</strong>.</li>
+                        <li>Klik <strong>ikon roda gigi</strong> (Pengaturan).</li>
+                        <li>Klik tombol <strong>"Hapus Akun"</strong> (Delete Account).</li>
+                    </ol>
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg my-6">
+                        <p class="text-red-800 m-0"><strong>⚠️ Penting:</strong> Tindakan ini akan segera dan secara permanen menghapus semua data pengguna. Tindakan ini tidak dapat dibatalkan.</p>
+                    </div>
+
+                    <hr>
+
+                    <h2>✉️ Meminta Penghapusan Data via Email</h2>
+                    <p>Jika Anda tidak dapat mengakses akun Anda atau lebih memilih untuk mengirimkan permintaan resmi, silakan kirim email kepada kami.</p>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:sehatsuksesindonesia@gmail.com">sehatsuksesindonesia@gmail.com</a></li>
+                        <li><strong>Subjek:</strong> Data Deletion Request</li>
+                    </ul>
+
+                    <h3>Template Email:</h3>
+                    <pre class="bg-gray-800 text-gray-100 p-4 rounded-lg overflow-x-auto"><code>Hello,
+
+I am requesting the permanent deletion of my account and all associated personal data from your system.
+
+My Account Email/ID: [Masukkan email atau ID Anda di sini]
+
+Thank you.</code></pre>
+
+                    <p>Kami akan memproses permintaan Anda dalam waktu 30 hari dan mengirimkan konfirmasi ke email Anda.</p>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6 mt-auto">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2026 PT Sehat Sukses Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
